@@ -1,0 +1,5 @@
+-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\CM3 -I..\Libraries -I..\Mylib -I..\User 
+-I C:\arm\ARM\RV31\INC 
+-I C:\arm\ARM\CMSIS\Include 
+-I C:\arm\ARM\Inc\ST\STM32F10x 
+-DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -o "usart1.o" --omf_browse "usart1.crf" --depend "usart1.d" "..\Mylib\Usart1.c"

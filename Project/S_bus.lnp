@@ -1,0 +1,5 @@
+--cpu Cortex-M3 "core_cm3.o" "system_stm32f10x.o" ".\startup_stm32f10x_md.o" "misc.o" "stm32f10x_dma.o" "stm32f10x_exti.o" "stm32f10x_gpio.o" "stm32f10x_rcc.o" "stm32f10x_usart.o" "usart1.o" "delay.o" "stm32f10x_it.o" "main.o" 
+--strict --scatter "S_bus.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\S_bus.map" -o S_bus.axf
